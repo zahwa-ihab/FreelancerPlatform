@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #222;
+}
+
+.navbar {
+  background-color: #212b46;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 24px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.navbar-links li {
+  cursor: pointer;
+}
+
+.navbar-links li:hover {
+  color: #8da9ff;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.welcome h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.welcome p {
+  color: #666;
+  font-size: 18px;
+}
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  color: #8da9ff;
+}
+.projects-container {
+  padding: 30px;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.project-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.project-card h3 {
+  color: #263b70;
+  margin-top: 0;
+}
+
+.project-card p {
+  color: #555;
+}
+.project-budget {
+  font-weight: bold;
+  color: #263b70;
+}
+
+.project-status {
+  display: inline-block;
+  background-color: #e5f5e9;
+  color: #218838;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
